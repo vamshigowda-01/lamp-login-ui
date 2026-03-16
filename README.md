@@ -31,7 +31,7 @@ lamp-login-ui/
 ## How to Run the Project
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/lamp-login-ui.git
+   git clone https://github.com/vamshigowda-01/lamp-login-ui.git
 
 2. Open the project folder.
 
