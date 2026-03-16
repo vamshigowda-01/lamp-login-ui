@@ -1,0 +1,104 @@
+body{
+background:#121417;
+font-family:Arial;
+color:white;
+text-align:center;
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+transition:0.5s;
+}
+
+.title{
+margin-bottom:40px;
+font-weight:300;
+}
+
+.container{
+display:flex;
+gap:80px;
+align-items:center;
+}
+
+.lamp{
+position:relative;
+}
+
+.lamp-top{
+width:140px;
+height:70px;
+background:white;
+border-radius:80px 80px 0 0;
+box-shadow:0 0 40px rgba(255,255,200,0.4);
+}
+
+.lamp-stand{
+width:10px;
+height:120px;
+background:white;
+margin:auto;
+}
+
+.pull-switch{
+position:absolute;
+top:40px;
+left:70px;
+display:flex;
+flex-direction:column;
+align-items:center;
+cursor:pointer;
+}
+
+.rope{
+width:3px;
+height:70px;
+background:white;
+}
+
+.ball{
+width:14px;
+height:14px;
+background:#d4a373;
+border-radius:50%;
+margin-top:3px;
+}
+
+.login-card{
+background: rgba(255,255,255,0.08);
+padding: 30px;
+border-radius: 15px;
+
+backdrop-filter: blur(12px);
+-webkit-backdrop-filter: blur(12px);
+
+width:250px;
+text-align:left;
+opacity:0;
+transform:translateY(30px);
+transition:0.5s;
+}
+
+.login-card.active{
+opacity:1;
+transform:translateY(0);
+}
+
+input{
+width:100%;
+padding:10px;
+margin:8px 0 15px;
+border:none;
+border-radius:8px;
+}
+
+button{
+width:100%;
+padding:10px;
+border:none;
+border-radius:8px;
+background:linear-gradient(to right,#f6d365,#fda085);
+font-weight:bold;
+cursor:pointer;
+}

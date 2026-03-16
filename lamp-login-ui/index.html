@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lamp Login UI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1 class="title">Login Lamp</h1>
+
+<div class="container">
+
+    <!-- Lamp -->
+    <div class="lamp">
+
+        <div class="lamp-top"></div>
+        <div class="lamp-stand"></div>
+
+        <!-- Rope Switch -->
+        <div class="pull-switch" onclick="toggleLamp()">
+            <div class="rope"></div>
+            <div class="ball"></div>
+        </div>
+
+    </div>
+
+    <!-- Login Card -->
+    <div class="login-card" id="loginCard">
+
+        <h2>Welcome</h2>
+
+        <label>Username</label>
+        <input type="text" placeholder="Enter username">
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter password">
+
+        <button>Sign In</button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
